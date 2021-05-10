@@ -4,17 +4,16 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>Hey {}!!</b>
-<i>Am Just A Advance Auto Filter Bot....😉
+      
+    START_TEXT = """<b>Hey {}</b>
+ɪ ᴀᴍ ᴀ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ sɪᴍᴘʟʏ sᴇᴀʀᴄʜ ғᴏʀ ᴛʜᴇ ғɪʟᴇs ᴍᴀᴅᴇ ғᴏʀ <b><a href="https://t.me/Film_zone_group">Film Zone</a></b>
+ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ɢɪᴠᴇɴ ᴏ̨ᴜᴇʀʏ ᴀɴᴅ ɢɪᴠᴇs ʟɪɴᴋ ᴛᴏ ᴛʜᴏsᴇ ғɪʟᴇs ᴀs ʙᴜᴛᴛᴏɴs
 
-Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝
-
-For More Details Click Help Button Below..
-@CrazyBotsz
-</i>"""    
+🕵‍♂ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ 👉 <b><a href="https://t.me/diago_x">Diago</a></b>
+"""    
     
     HELP_TEXT = """
-<b><i><u>How To Use Me!?</u></i></b>
+<b><i>How To Use Me!</i></b>
 
 <i>
 -> Add Me To Any Group And Make Me Admin
@@ -43,16 +42,16 @@ For More Details Click Help Button Below..
             
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
-@CrazyBotsz
+
 """
     
-    ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
+    ABOUT_TEXT = """○ ᴍʏ ɴᴀᴍᴇ: Magna
     
-<b>➥ Creator</b> : <b><i><a href="https://t.me/AlbertEinstein_TG">AlbertEinstein_TG</a></i></b>
+○ ʟᴀɴɢᴜᴀɢᴇ  : ᴘʏᴛʜᴏɴ
 
-<b>➥ Language</b> : <code>Python3</code>
+○ ғʀᴀᴍᴇᴡᴏʀᴋ  : ᴘʏʀᴏɢʀᴀᴍ
 
-<b>➥ Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
+○ ᴄʀᴇᴀᴛᴏʀ     : <a href="https://t.me/diago_x">Diago</a>
 
-<b>➥ Source Code</b> : <i><a href="https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot">Click Me</a></i>
+○ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href="https://github.com/ajmalyaseen/fz-auto-filter-bot-v2">Click Hear</a>
 """
