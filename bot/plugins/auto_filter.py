@@ -112,8 +112,6 @@ async def auto_filter(bot, update):
             
             results.append(
                 [
-                    InlineKeyboardButton(GET OUR ALL CHANNELS, url=https://t.me/film_zone_channels)
-                ],[
                     InlineKeyboardButton(button_text, url=file_link)
                 ]
             )
