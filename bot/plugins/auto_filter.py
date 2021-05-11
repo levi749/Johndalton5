@@ -112,6 +112,8 @@ async def auto_filter(bot, update):
             
             results.append(
                 [
+                    InlineKeyboardButton(GET OUR ALL CHANNELS, url=https://t.me/film_zone_channels)
+                ],[
                     InlineKeyboardButton(button_text, url=file_link)
                 ]
             )
@@ -166,7 +168,7 @@ async def auto_filter(bot, update):
         
         # Just A Decaration
         result[0].append([
-            InlineKeyboardButton(f"📑 PAGE 1/{len_result if len_result < max_pages else max_pages} 🔰", callback_data="ignore")
+            InlineKeyboardButton(f"📄 PAGE 1/{len_result if len_result < max_pages else max_pages}", callback_data="ignore")
         ])
         
         
@@ -216,7 +218,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"<b>🔎Got It Your Query 👉 {query}</b>\n\n<b>[©ꜰɪʟᴍ ᴢᴏɴᴇ](https://t.me/film_zone_channels)</b>",
+                text=f"<b>🔎 Got It Your Query 👉 {query}</b>\n\n<b><b><a href="https://t.me/Film_zone_channels">©ꜰɪʟᴍ ᴢᴏɴᴇ</a></b>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
