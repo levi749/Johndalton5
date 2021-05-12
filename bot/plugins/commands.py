@@ -9,8 +9,8 @@ from bot.database import Database # pylint: disable=import-error
 
 db = Database()
 
-pyrogram.Client.on_message(pyrogram.filters.regex(pattern=".*http.*"))
-async def echo(bot, update):
+@Client.on_message(filters.command(["start"]) & filters.private, group=1)
+async def start(bot, update):
     if update.from_user.id in Config.BANNED_USERS:
         await update.reply_text("You are B A N N E D 🤣🤣🤣🤣")
         return
