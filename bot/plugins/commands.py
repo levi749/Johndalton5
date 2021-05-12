@@ -11,10 +11,6 @@ db = Database()
 
 @Client.on_message(filters.command(["start"]) & filters.private, group=1)
 async def start(bot, update):
-    if update.from_user.id in Config.BANNED_USERS:
-        await update.reply_text("You are B A N N E D 🤣🤣🤣🤣")
-        return
-    TRChatBase(update.from_user.id, update.text, "/echo")
     update_channel = 'filmzoneeee'
     if update_channel:
         try:
