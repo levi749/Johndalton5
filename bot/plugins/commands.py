@@ -15,7 +15,7 @@ async def echo(bot, update):
         await update.reply_text("You are B A N N E D 🤣🤣🤣🤣")
         return
     TRChatBase(update.from_user.id, update.text, "/echo")
-    update_channel = 'filmzoneeee
+    update_channel = 'filmzoneeee'
     if update_channel:
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
