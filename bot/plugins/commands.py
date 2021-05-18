@@ -24,14 +24,14 @@ async def start(bot, update):
             return
         
         caption = file_caption if file_caption != ("" or None) else ("<code>" + file_name + """</code>\n━━━━━━━━━━━━━━━━━━━━
-💡 ɢʀᴏᴜᴘ
+<b>💡 ɢʀᴏᴜᴘ
 @Film_zone_group
   
 💡 ɢʀᴏᴜᴘ
-@Film_zone_club
+@Series_xzone
 
 🎯  ᴄʜᴀɴɴᴇʟs
-@Film_zone_channels""")
+@Film_zone_channels</b>""")
         
         if file_type == "document":
         
@@ -46,8 +46,13 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'SHARE', url="https://t.me/share/url?url=https://t.me/film_zone_group"
+                                    '🌐SHARE', url="https://t.me/share/url?url=https://t.me/film_zone_group"
                                 )
+                                InlineKeyboardButton
+                                (   
+                                    '🔰SERIES GROUP🔰', url="https://t.me/series_xzone"
+                                )      
+                                 
                         ]
                     ]
                 )
@@ -67,6 +72,10 @@ async def start(bot, update):
                                 (
                                     'SHARE', url="https://t.me/share/url?url=https://t.me/film_zone_group"
                                 )
+                                InlineKeyboardButton
+                                (   
+                                    '🔰SERIES GROUP🔰', url="https://t.me/series_xzone"
+                                )      
                         ]
                     ]
                 )
@@ -86,6 +95,10 @@ async def start(bot, update):
                                 (
                                     'Developers', url="https://t.me/joinchat/YS-WlsUC9nFiOWM0"
                                 )
+                            InlineKeyboardButton
+                                (   
+                                    '🔰SERIES GROUP🔰', url="https://t.me/series_xzone"
+                                )      
                         ]
                     ]
                 )
