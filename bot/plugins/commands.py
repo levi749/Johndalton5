@@ -28,6 +28,9 @@ async def start(bot, update):
               ])
             )
             return
+          except Exception:
+            await update.reply_text("Something Wrong. Contact my Support Group")
+            return
     try:
         file_uid = update.command[1]
     except IndexError:
