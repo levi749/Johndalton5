@@ -126,8 +126,9 @@ async def auto_filter(bot, update):
         chat_id = update.chat.id,
         text=f"""🥺 𝐒𝐎𝐑𝐑𝐘, 𝘾𝙤𝙪𝙡𝙙𝙣'𝙩  𝙛𝙞𝙣𝙙 𝙔𝙤𝙪𝙧 𝙈𝙤𝙫𝙞𝙚.....!
 
-1) 𝐌𝐚𝐲𝐛𝐞 𝐈𝐧𝐜𝐨𝐫𝐫𝐞𝐜𝐭 𝐅𝐨𝐫𝐦𝐚𝐭🥴
-  𝙴𝚐: '𝙼𝚘𝚟𝚒𝚎 𝚗𝚊𝚖𝚎 𝚢𝚎𝚊𝚛
+1)<b>Try Again This Format 👇</b>
+   
+⛔Request format: Movie Name year
 
 2) 𝐂𝐡𝐞𝐜𝐤 𝐭𝐡𝐞 𝐬𝐩𝐞𝐥𝐥𝐢𝐧𝐠(𝐆𝐨𝐨𝐠𝐥𝐞)
 
@@ -138,7 +139,7 @@ async def auto_filter(bot, update):
 
 ᴀʀᴇ ʏᴏᴜ ꜱᴜʀᴇ ᴛʜɪꜱ ʀᴜʟᴇꜱ ɪꜱ ᴄᴏʀʀᴇᴄᴛ ꜱᴛɪʟʟ ᴡᴀɪᴛ ᴜᴘʟᴏᴀᴅɪɴɢ ꜱᴏᴏɴ......!
 
-©️ <b>Film zone</b>""",             
+<b><a href='https://t.me/Film_zone_channels'>©ꜰɪʟᴍ ᴢᴏɴᴇ</a></b>""",             
         reply_to_message_id=update.message_id
         )
         await asyncio.sleep(50) # in seconds
@@ -165,7 +166,7 @@ async def auto_filter(bot, update):
         if len_result != 1:
             result[0].append(
                 [
-                    InlineKeyboardButton("🌀NEXT PAGE", callback_data=f"navigate(0|next|{query})")
+                    InlineKeyboardButton("➡️NEXT PAGE", callback_data=f"navigate(0|next|{query})")
                 ]
             )
         
