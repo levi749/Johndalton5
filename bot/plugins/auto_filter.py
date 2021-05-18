@@ -128,13 +128,15 @@ async def auto_filter(bot, update):
 
 1)<b>Try Again This Format 👇</b>
    
-⛔Request format: Movie Name year
+⛔ Movie Name year , Joji 2021
 
-2) 𝐂𝐡𝐞𝐜𝐤 𝐭𝐡𝐞 𝐬𝐩𝐞𝐥𝐥𝐢𝐧𝐠(𝐆𝐨𝐨𝐠𝐥𝐞)
+2) 𝐂𝐡𝐞𝐜𝐤 𝐭𝐡𝐞 𝐬𝐩𝐞𝐥𝐥𝐢𝐧𝐠(google or imdb)
 
-3) 𝐌𝐨𝐯𝐢𝐞 𝐦𝐚𝐲 𝐧𝐨𝐭 𝐫𝐞𝐥𝐞𝐚𝐬𝐞𝐝 🤷‍♂
+3) <b>Find Movie Year @imdbot</b>
 
-4) 𝐃𝐨𝐧'𝐭 𝐚𝐬𝐤 𝐒𝐞𝐫𝐢𝐞𝐬, 
+4) 𝐌𝐨𝐯𝐢𝐞 𝐦𝐚𝐲 𝐧𝐨𝐭 𝐫𝐞𝐥𝐞𝐚𝐬𝐞𝐝 🤷‍♂
+
+5) 𝐃𝐨𝐧'𝐭 𝐚𝐬𝐤 𝐒𝐞𝐫𝐢𝐞𝐬, 
    𝐚𝐬𝐤 for <b>@series_xzone</b>
 
 ᴀʀᴇ ʏᴏᴜ ꜱᴜʀᴇ ᴛʜɪꜱ ʀᴜʟᴇꜱ ɪꜱ ᴄᴏʀʀᴇᴄᴛ ꜱᴛɪʟʟ ᴡᴀɪᴛ ᴜᴘʟᴏᴀᴅɪɴɢ ꜱᴏᴏɴ......!
