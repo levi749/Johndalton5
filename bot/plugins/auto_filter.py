@@ -225,7 +225,7 @@ async def auto_filter(bot, update):
             await bot.send_photo(
                 chat_id = update.chat.id,
                 photo="https://telegra.ph/Film-Zone-05-19",
-                caption=f"<b> {USERNAME} 🔎 Got It Your Query 👉 {query}</b>\n\n<b><a href='https://t.me/Film_zone_channels'>©ꜰɪʟᴍ ᴢᴏɴᴇ</a></b>",
+                caption=f"<b>👇 ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ yᴏᴜʀ qᴜᴇʀy {query}👇\nᴄʜᴏᴏꜱᴇ ᴀɴʏ ʙᴜᴛᴛᴏɴ\nꜱʜᴀʀᴇ ᴀɴᴅ ꜱᴜᴘᴘᴏʀᴛ<b><a href='https://t.me/Film_zone_channels'>©ꜰɪʟᴍ ᴢᴏɴᴇ</a></b>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
