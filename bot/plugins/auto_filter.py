@@ -144,7 +144,7 @@ async def auto_filter(bot, update):
 <b><a href='https://t.me/Film_zone_channels'>©ꜰɪʟᴍ ᴢᴏɴᴇ</a></b>""",             
         reply_to_message_id=update.message_id
         )
-        await asyncio.sleep(50) # in seconds
+        await asyncio.sleep(30) # in seconds
         await Send_message.delete()
         return # return if no files found for that query
         return # return if no files found for that query
