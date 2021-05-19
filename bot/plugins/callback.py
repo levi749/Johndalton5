@@ -81,7 +81,7 @@ async def cb_navg(bot, update: CallbackQuery):
 
     if ((index_val + 1 )== max_pages) or ((index_val + 1) == len(results)): # Max Pages
         temp_results.append([
-            InlineKeyboardButton("⏪ Back", callback_data=f"navigate({index_val}|back|{query})")
+            InlineKeyboardButton("⬅️BACK", callback_data=f"navigate({index_val}|back|{query})")
         ])
 
     elif int(index_val) == 0:
@@ -89,13 +89,13 @@ async def cb_navg(bot, update: CallbackQuery):
 
     else:
         temp_results.append([
-            InlineKeyboardButton("⏪ Back", callback_data=f"navigate({index_val}|back|{query})"),
-            InlineKeyboardButton("Next ⏩", callback_data=f"navigate({index_val}|next|{query})")
+            InlineKeyboardButton("⬅️BACK", callback_data=f"navigate({index_val}|back|{query})"),
+            InlineKeyboardButton("NEXT➡️", callback_data=f"navigate({index_val}|next|{query})")
         ])
 
     if not int(index_val) == 0:    
         temp_results.append([
-            InlineKeyboardButton(f"📃 Page {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} 📃", callback_data="ignore")
+            InlineKeyboardButton(f"📄 PAGE {index_val + 1}/{len(results) if len(results) < max_pages else max_pages}", callback_data="ignore")
         ])
     
     if show_invite and int(index_val) !=0 :
@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<b>🔎 Got it Your query</b> 👉 <code>{query}</code>\n\n<b>©FILM ZONE</b>"
+    text=f"<b>🔎 Got it Your query 👉 {query}\n\n©FILM ZONE</b>"
         
     try:
         await update.message.edit(
