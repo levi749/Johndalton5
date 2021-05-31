@@ -5,12 +5,12 @@ https://github.com/ajmalyaseen/FZ-AUTO-FILTER-V2
 
 <p align="center">
   <a href="https://github.com/ajmalyaseen/FZ-AUTO-FILTER-V2">
-    <img src="https://img.shields.io/github/stars/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2?style=social">
+    <img src="https://img.shields.io/github/stars/ajmalyaseen/FZ-AUTO-FILTER-V2?style=social">
 
   </a>
   
   <a href="https://github.com/ajmalyaseen/FZ-AUTO-FILTER-V2">
-    <img src="https://img.shields.io/github/forks/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2?label=Fork&style=social">
+    <img src="https://img.shields.io/github/forks/ajmalyaseen/FZ-AUTO-FILTER-V2?label=Fork&style=social">
 
   </a>  
 </p>
