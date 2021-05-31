@@ -5,7 +5,7 @@
 ![Repo Views](https://visitor-badge.glitch.me/badge?page_id=https://github.com/ajmalyaseen/FZ-AUTO-FILTER-V2)
 
 
-https://github.com/ajmalyaseen/FZ-AUTO-FILTER-V2
+
 
 <p align="center">
   <a href="https://github.com/ajmalyaseen/FZ-AUTO-FILTER-V2">
