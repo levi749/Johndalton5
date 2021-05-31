@@ -1,4 +1,8 @@
 # Adv Auto Filter Bot V2
+# @diago_x
+
+
+![Repo Views](https://visitor-badge.glitch.me/badge?page_id=https://github.com/ajmalyaseen/FZ-AUTO-FILTER-V2)
 
 
 https://github.com/ajmalyaseen/FZ-AUTO-FILTER-V2
