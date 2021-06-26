@@ -62,7 +62,7 @@ async def auto_filter(bot, update):
     if filters:
         results.append(
                 [
-                    InlineKeyboardButton("🔘GET OUR ALL CHANNELS🔘", url="https://t.me/film_zone_channels")
+                    InlineKeyboardButton("🔘GET OUR ALL CHANNELS🔘", url="https://t.me/MFMOVIES3")
                 ]
             )
         for filter in filters: # iterating through each files
@@ -73,11 +73,11 @@ async def auto_filter(bot, update):
             # from B to MiB
             file_size = round(file_size/(1024*1024))
             
-            file_size = f"[{str(file_size)} MiB] " if file_size < 1024 else f"[{str(round(file_size/1024))} GiB] "
-            file_size = "" if file_size == ("[0 MiB] " or "[0 GiB] ") else file_size
+            file_size = f"[{str(file_size)} MB] " if file_size < 1024 else f"[{str(round(file_size/1024))} GB] "
+            file_size = "" if file_size == ("[0 MB] " or "[0 GB] ") else file_size
             
                             # add emoji down below inside " " if you want..
-            button_text = f"{'📁'}{file_size}{file_name}" if file_size else file_name
+            button_text = f"{'📁'}{file_size}{MF}" if file_size else file_name
             
 
             if file_type == "video":
@@ -136,12 +136,11 @@ async def auto_filter(bot, update):
 
 4) 𝐌𝐨𝐯𝐢𝐞 𝐦𝐚𝐲 𝐧𝐨𝐭 𝐫𝐞𝐥𝐞𝐚𝐬𝐞𝐝 🤷‍♂
 
-5) 𝐃𝐨𝐧'𝐭 𝐚𝐬𝐤 𝐒𝐞𝐫𝐢𝐞𝐬, 
-   𝐚𝐬𝐤 for <b>@series_xzone</b>
+
 
 ᴀʀᴇ ʏᴏᴜ ꜱᴜʀᴇ ᴛʜɪꜱ ʀᴜʟᴇꜱ ɪꜱ ᴄᴏʀʀᴇᴄᴛ ꜱᴛɪʟʟ ᴡᴀɪᴛ ᴜᴘʟᴏᴀᴅɪɴɢ ꜱᴏᴏɴ......!
 
-<b><a href='https://t.me/Film_zone_channels'>©ꜰɪʟᴍ ᴢᴏɴᴇ</a></b>""",             
+<b><a href='https://t.me/MF_CHATGROUP'>©ꜰɪʟᴍ ᴢᴏɴᴇ</a></b>""",             
         reply_to_message_id=update.message_id
         )
         await asyncio.sleep(30) # in seconds
@@ -225,7 +224,7 @@ async def auto_filter(bot, update):
             await bot.send_photo(
                 chat_id = update.chat.id,
                 photo="https://telegra.ph/Film-Zone-05-19",
-                caption=f"<b>👇 ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ yᴏᴜʀ qᴜᴇʀy {query}👇\n\nꜱʜᴀʀᴇ ᴀɴᴅ ꜱᴜᴘᴘᴏʀᴛ</b>\n<b><a href='https://t.me/Film_zone_channels'>©ꜰɪʟᴍ ᴢᴏɴᴇ</a></b>",
+                caption=f"<b>👇 ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ yᴏᴜʀ qᴜᴇʀy {query}👇\n\nꜱʜᴀʀᴇ ᴀɴᴅ ꜱᴜᴘᴘᴏʀᴛ</b>\n<b><a href='https://t.me/MFMOVIES3'>©ꜰɪʟᴍ </a></b>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
